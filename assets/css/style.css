@@ -1,0 +1,271 @@
+/* Tag slector in css*/
+/*
+h1{
+    color: red;
+    text-decoration: underline;
+}
+
+b{
+    color: brown;
+    text-decoration: underline;
+}
+*/
+/* ID selector in css*/
+/*
+#one{
+    color: orange;
+}
+#two{
+    color: blue;
+}
+#three{
+    color: green;
+}
+*/
+/* Class selector in CSS*/
+/*
+.select{
+    color: blueviolet;
+}
+*/
+
+/* Combinations of selectors in css*/
+/*
+h1,p,b{
+    color: blueviolet;
+}
+*/
+/*
+#one,b{
+    color: blueviolet;
+}
+*/
+/*
+.select,#two,b{
+    color: greenyellow;
+}
+*/
+
+/*Universal selector in css*/
+
+/*
+body{
+    background-color: beige;
+}
+*/
+/*
+*{
+    background-color: aqua;
+}
+*/
+/* Combinators in CSS*/
+/*Descendant Combinator*/
+/*div p{
+    color: blueviolet;
+}
+*/
+/*Child Combinator*/
+/*div>p{
+    color: blueviolet;
+}
+*/
+/*Sibbling Combinator*/
+/*div+p{
+    color: blueviolet;
+}
+*/
+/*General Sibbling Combinator*/
+/*div~p{
+    color: blueviolet;
+}
+*/
+/*Psuedo class selector*/
+/*
+a:link{
+    color: aqua;
+    background-color: black;
+}
+a:hover{
+    color: white;
+}
+*/
+/*Attribute selector*/
+/*[type]{
+    color: blueviolet;
+}
+*/
+/*Attribute selector with attribute value*/
+
+/*[type="text"]{
+    color:blueviolet;
+}
+*/
+
+/*
+[class*="test"]{
+    color: blueviolet;
+}
+*/
+/*
+[class*="tested"]{
+    color: blueviolet;
+}
+*/
+/* Color property*/
+
+h1{
+	/*Color:red;*/
+	/*Color:#066568;*/
+	/*Color:rgb(53, 72, 211 );*/
+}
+p{
+	/*color:#511649;*/
+	/*Color:blueviolet;*/
+	/*color:rgb(209, 137, 255);*/
+}
+
+p{
+	/*text-align:center;
+	text-indent:50px;
+	word-spacing:20px;
+	letter-spacing:20px;
+	line-height:30px;*/
+	
+}
+
+h1{
+	/*text-align:right;*/
+	/*text-transform:uppercase;*/
+	/*text-transform:capitalize;*/
+	/*text-decoration:underline;*/
+	/*text-decoration:overline;*/
+	/*text-decoration:line-through;*/
+}
+a{
+	/*text-decoration:none;*/
+}
+h1{
+	
+	/*font-size:50px;*/
+	/*font-weight:normal;*/
+}
+#p1{
+	/*font-size:0.7em;*/
+	/*font-weight:normal;
+	font-style:italic*/
+}
+p,i,em{
+	/*font-weight:700;*/
+	/*font-style:italic;*/
+	/*font-family:monotype-corsiva;*/
+	/*font-family:'Montserrat', sans-serif;*/
+}
+.box{
+	/*width:300px;
+	height:150px;*/
+	/*height:550px;*/
+	/*width:50%;*/
+	/*border-style:solid;
+	border-width:4px;
+	border-color:rgb(189,201,201);*/
+	/*border:4px dashed blueviolet;/*Shorthand method of border property.*/
+	/*border-radius:10px;
+	border-right-width:5px;
+	border-right-style:dotted;
+	border-right-color:blueviolet;*/
+	/*Border-right shorthand*/
+	/*border-right:5px dotted blueviolet;
+	border-left:2px dashed red;*/
+	/*background-color:red;*/
+	/*border-radius:10px 30px 8px 20px;/*top-left top-right bottom-right bottom-left*/
+	/*border-radius:20px 10px;
+	/*margin:100px 400px 200px 350px;/*top right bottom left*/
+	/*margin:200px auto;
+	/*padding:10px;*/
+	/*padding:10px 30px;*/
+	/*padding:10px 30px 10px;*/
+	/*padding:10px 30px 10px 40px;*/
+}
+.inp1{
+	/*border-color:blueviolet;
+	border-width:0px 0px 2px 0px;*/
+}
+.box1{
+	/*border:3px solid;*/
+}
+
+h1,p{
+	/*display:inline;*/
+	/*display:inline-block;
+	width:500px;
+	text-align:right;*/
+	
+}
+i,b{
+	/*display:block;*/
+}
+/*.shadow{
+	width:300px;
+	height:300px;
+	border:3px solid;
+	margin:200px auto;
+	text-align:center;
+	box-shadow:10px 10px 5px 5px grey;
+
+}*/
+/*h1{
+	margin:300px auto;
+	text-align:center;
+	font-size:100px;
+	text-shadow:10px 10px 5px gray;
+	
+}*/
+
+.bg{
+	height:70%;
+	/*background-color:blueviolet;*/
+	text-align:center;
+	font-size:90px;
+	/*padding-top:90px;*/
+	box-sizing:border-box;
+	color:white;
+	text-shadow:10px 10px 2px black;
+	background-image:url('../images/bacground_linkedin.svg');
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-attachment:fixed;
+}*/
+.box5{
+	height:1000px;
+	border:3px solid;	
+}
+.fourth{
+	color:blueviolet;
+	font-weight:bold;
+	/*position:fixed;*/
+	/*top:50px;
+	right:50px;*/
+	/*position:relative;*/
+	position:absolute;
+	top:100px;
+	left:299px;
+}
+
+.wbox{
+	border:3px solid;
+	height:2000px;
+	width:1500px;
+}
+
+#waid{
+	/*border:2px solid;*/
+	position:fixed;
+	right:40px;
+	bottom:20px;
+}
+#telid{
+	/*border:2px solid;*/
+	position:fixed;
+	right:40px;
+	bottom:100px;
+}
